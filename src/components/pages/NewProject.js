@@ -7,7 +7,7 @@ import ProjectForm from '../project/ProjectForm'
 
 function NewProject(){
 
-    const history = useNavigate()
+    const navigate = useNavigate()
 
     function createPost(project) {
         //initialize cost and services
@@ -25,7 +25,7 @@ function NewProject(){
         .then((data) => {
             console.log(data)
             //redirect
-            history('/projects', {message: 'PROJETO criado com sucesso!'})
+            navigate('/projects', {state: {message: 'PROJETO criado com sucesso!'}})
         })
         .catch(err => console.log(err))
     }
