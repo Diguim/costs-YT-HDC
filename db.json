@@ -1,61 +1,6 @@
 {
   "projects": [
     {
-      "name": "doide",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "doidao",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "daSDDA",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "ffffff",
-      "budget": "50000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "mais um",
-      "budget": "10000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
       "name": "novo proje",
       "budget": "8000",
       "category": {
@@ -67,8 +12,8 @@
       "id": 6
     },
     {
-      "name": "mais um novo",
-      "budget": "9500",
+      "name": "novao",
+      "budget": "9000",
       "category": {
         "id": "3",
         "name": "Design"
