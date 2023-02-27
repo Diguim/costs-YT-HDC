@@ -1,7 +1,10 @@
 import loading from '../../img/loading.svg'
 
 import styles from './Loading.module.css'
-
+/**
+ * 
+ * @returns Componente de "layout" de loading, visual
+ */
 function Loading(){
     return(
         <div className={styles.loader_container}>

@@ -6,7 +6,10 @@ import styles from './Navbar.module.css'
 
 import logo from '../../img/costs_logo.png'
 
-
+/**
+ * 
+ * @returns Componente de barra de navegação superior
+ */
 function Navbar(){
     return (
         <nav className={styles.navbar}>

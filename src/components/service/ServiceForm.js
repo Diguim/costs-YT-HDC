@@ -4,7 +4,11 @@ import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
 
 import styles from '../project/ProjectForm.module.css'
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Formulário de criação de serviço do projeto
+ */
 function ServiceForm({ handleSubmit, btnText, projectData }) {
 
     const [service, setService] = useState({})

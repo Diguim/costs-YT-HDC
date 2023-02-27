@@ -4,7 +4,10 @@ import styles from './NewProject.module.css'
 
 import ProjectForm from '../project/ProjectForm'
 
-
+/**
+ * Função createPost com Fetch no bando de dados para POST, inserção de projeto
+ * @returns Pagina para a criação de projeto com o componente ProjectForm botão tipo submit que chama função create post
+ */
 function NewProject(){
 
     const navigate = useNavigate()

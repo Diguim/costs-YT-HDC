@@ -1,7 +1,10 @@
 import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 import styles from './Footer.module.css'
-
+/**
+ * 
+ * @returns componente de rodapé
+ */
 function Footer(){
     return(
         <footer className={styles.footer}>

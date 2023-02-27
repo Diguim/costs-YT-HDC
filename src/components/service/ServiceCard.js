@@ -1,7 +1,11 @@
 import styles from '../project/ProjectCard.module.css'
 
 import { BsFillTrashFill } from 'react-icons/bs'
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Componente de serviço de um projeto específico
+ */
 function ServiceCard({ id, name, cost, description, handleRemove}){
     
     const remove = (e) => {

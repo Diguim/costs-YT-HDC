@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 
 import styles from './Message.module.css'
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Componente de mensagem, seja sucesso ou erro
+ */
 function Message({ type, msg }) {
 
     const [visible, setVisible] = useState(false)

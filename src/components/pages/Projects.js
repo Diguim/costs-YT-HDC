@@ -10,6 +10,11 @@ import ProjectCard from '../project/ProjectCard'
 
 import styles from './Projects.module.css'
 
+/**
+ * fetch no bando de dados de projetos
+ * função de remover projetos dentre os já exibidos no retorno
+ * @returns Pagina de projetos
+ */
 function Projects() {
     const [projects, setProjects] = useState([])
     const [removeLoading, setRemoveLoading] = useState(false)

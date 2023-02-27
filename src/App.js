@@ -14,6 +14,7 @@ import Footer from './components/layout/Footer';
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       
@@ -33,6 +34,7 @@ function App() {
 
         </Routes>
       </Container>
+      
       <Footer />
     </Router>
   );

@@ -4,7 +4,11 @@ import styles from './ProjectCard.module.css'
 
 import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Card dos projetos ja no Banco de dados
+ */
 function ProjectCard({ id, name, budget, category, handleRemove }){
     const remove = (e) => {
         e.preventDefault()

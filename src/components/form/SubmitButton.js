@@ -1,5 +1,9 @@
 import styles from './SubmitButton.module.css'
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Componente de SubmitButton
+ */
 function SubmitButton({ text }){
     return (
         <div>

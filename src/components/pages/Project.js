@@ -11,7 +11,12 @@ import ProjectForm from '../project/ProjectForm'
 import Message from '../layout/Message'
 import ServiceForm from '../service/ServiceForm'
 import ServiceCard from '../service/ServiceCard'
-
+/**
+ * Fetch no BD
+ * Função de editar o projeto
+ * Funções de criação e remoções de serviços de projeto
+ * @returns Retorna o card em si de cada projeto
+ */
 function Project() {
     const { id } = useParams()
 

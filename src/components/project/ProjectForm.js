@@ -6,6 +6,11 @@ import SubmitButton from '../form/SubmitButton'
 
 import styles from './ProjectForm.module.css'
 
+/**
+ * fetch no banco de dados, 
+ * @param {*} param0 
+ * @returns Formulário de criação de projetos com componentes de inputs e select
+ */
 function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     const [categories, setCategories] = useState([])

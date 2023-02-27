@@ -1,5 +1,9 @@
 import styles from './Input.module.css'
-
+/**
+ * 
+ * @param {*} param0 
+ * @returns Componente de INPUT
+ */
 function Input({ type, text, name, placeholder, handleOnChange, value}) {
     return (
         <div className={styles.form_control}>
